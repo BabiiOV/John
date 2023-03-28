@@ -361,3 +361,86 @@ footer li:hover{
     color: #21243D;
     margin-bottom: 17px;
 }
+
+/*recent posts*/
+
+.posts{
+    background: #EDF7FA;
+    padding-bottom: 32px;
+    padding-top: 7px;
+}
+.posts .container{
+    max-width: 856px;
+    margin: auto;
+}
+.posts .recent_posts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.posts .recent_posts h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.posts .recent_posts a{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.posts .description{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.posts .design{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 22px;
+    max-width: 418px;
+    box-sizing: border-box;
+}
+.posts .description h4{
+    margin-bottom: 17px;
+    font-family: 'heebobold';
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+.posts .description span{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+.posts .pattern::before{
+    content: "";
+    width: 0px;
+    height: 21px;
+    border: 1px solid #000000;
+    margin-right: 26px;
+    margin-left: 26px;
+}
+.posts .description p{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-top: 11px;
+}
+.posts .pixel{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 24px 22px;
+    max-width: 418px;
+    box-sizing: border-box;
+}
