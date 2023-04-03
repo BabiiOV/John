@@ -229,7 +229,7 @@ footer li:hover{
 }
 .lastsection article{
     display: flex;
-    border-bottom: 1px solid #E0E0E0;;
+    border-bottom: 1px solid #E0E0E0;
 }
 .lastsection article:last-of-type{
     margin-bottom: 83px;
