@@ -61,6 +61,10 @@ header .work_link{
     text-align: right;
     color: #FF6464;
 }
+
+/*main section*/
+
+
 .main_banner{
     padding-top: 140px;
     padding-bottom: 71px;
@@ -122,19 +126,23 @@ header nav ul li:hover{
     transform: rotate(360deg);
     transition: 0.5s;
 }
+
+/*form*/
+
+
 .sub_banner{
     padding: 69px 0px;
     background-color: black;
 }
-.contacts{
+.sub_banner .contacts{
     max-width: 564px;
     margin: auto;
     text-align: center;
 }
-.center div:nth-child(2) input{
+.sub_banner .center div:nth-child(2) input{
     background: rgba(255, 255, 255, 0.2);
 }
-.name{
+.sub_banner .name{
     background: rgba(255, 255, 255, 0.18);
     border: none;
     box-sizing: border-box;
@@ -147,7 +155,7 @@ header nav ul li:hover{
     line-height: 22px;
     color: #FFFFFF;
 }
-.comment{
+.sub_banner .comment{
     border: none;
     margin-bottom: 22px;
     box-sizing: border-box;
@@ -165,7 +173,7 @@ header nav ul li:hover{
     line-height: 22px;
     color: #FFFFFF;
 }
-.link{
+.sub_banner .link{
     background: #000000;
     font-family: 'Vollkorn', serif;
     font-style: italic;
@@ -177,6 +185,10 @@ header nav ul li:hover{
     padding: 16px 60px;
     border: solid 1px #7EC4BD;
 }
+
+/*footer*/
+
+
 footer{
     padding-top: 51px;
     padding-bottom: 54px;
